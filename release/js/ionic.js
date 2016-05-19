@@ -3763,7 +3763,7 @@ function keyboardFocusIn(e) {
   if (!e.target ||
       e.target.readOnly ||
       !ionic.tap.isKeyboardElement(e.target) ||
-      !(scrollView = ionic.DomUtil.getParentWithClass(e.target, SCROLL_CONTAINER_CSS))) {
+      !(scrollView = ionic.DomUtil.getParentWithClass(e.target, SCROLL_CONTAINER_CSS, 50))) {
     keyboardActiveElement = null;
     return;
   }
@@ -4225,7 +4225,6 @@ ionic.Platform.ready(function() {
     document.addEventListener('touchstart', keyboardInit, false);
   }
 });
-
 
 
 var viewportTag;
