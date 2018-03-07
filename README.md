@@ -1,3 +1,5 @@
+# NOTE: This repo should no longer be maintained on the RevUnit GitHub. Instead, make all changes on the Walmart GitHub at https://gecgithub01.walmart.com/StoreSystemsMobility/NotesAppIonic
+
 [![Circle CI](https://circleci.com/gh/driftyco/ionic.svg?style=svg)](https://circleci.com/gh/driftyco/ionic)
 
 
